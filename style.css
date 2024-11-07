@@ -22,3 +22,52 @@
 .transition-div:hover{
     transform: scale(2);
 }
+
+
+.transition-text{
+    font-size: 16px;
+    transition-duration: .3s;
+}
+
+.transition-text:hover{
+    font-size: 24px;
+}
+
+
+.transition-image{
+    transition-duration: .8s;
+    opacity: 1;
+    
+}
+
+.transition-image:hover{
+    opacity: .5;
+}
+
+
+.scale-div{
+    scale: 1;
+    background-color: rgb(70, 115, 188);
+    width: 100px;
+    text-align: center;
+}
+
+.scale-div:hover{
+    transform: scale(1.5)
+}
+
+.scale-image{
+    scale: 1;
+}
+
+.scale-image:hover{
+    transform: scale(.75);
+}
+
+.translate-button{
+    position: relative;
+}
+
+.translate-button:hover{
+    translate: 50px 20px;
+}

@@ -1,0 +1,24 @@
+.transition-button {
+    background-color: blue;
+    
+    padding: 20px;
+    cursor: pointer;
+    transition-duration: .5s; 
+  }
+
+  .transition-button:hover {
+    background-color: green;
+  }
+
+
+.transition-div{
+    width: 100px;
+    transition: all;
+    padding: 20px;
+    background-color: rgb(20, 140, 200);
+    transition-duration: 1s;
+}
+
+.transition-div:hover{
+    transform: scale(2);
+}
